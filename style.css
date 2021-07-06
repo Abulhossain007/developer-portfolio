@@ -3,6 +3,9 @@ h1{
 
 
 }
+h1{
+    font-size: 40px;
+}
 body{
     font-family: 'Poppins', sans-serif;
     
@@ -10,7 +13,7 @@ body{
 .mr{
     color: red;
 }
-section{
+.flexible-conteiner{
     display: flex;
     margin-bottom: 150px;
 }
@@ -37,4 +40,32 @@ section{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.one1{
+    border-radius: 5%;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 30px;
+    box-shadow: 15px 15px 40px gray
+    
+}
+.expreance-class{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    
+}
+#devloper{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, yellow);
+    border-image-slice: 1;
+}
+#developer2{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, yellow);
+    border-image-slice: 1;
+}
+footer p {
+    text-align: center;
 }
